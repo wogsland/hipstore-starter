@@ -13,10 +13,11 @@ First, [install Node.js](https://nodejs.org/en/download/package-manager/).
 
 Next:
 
-- `npm install -g elm create-elm-app@0.6.3`
-- `git clone https://github.com/splodingsocks/hipstore-starter.git`
-- `cd hipstore-starter`
-- `elm package install`
-- `npm start`
+    git clone https://github.com/splodingsocks/hipstore-starter.git
+    cd hipstore-starter
+    npm install elm create-elm-app@0.6.3
+    PATH=/path/to/hipstore-starter/node_modules/.bin/:$PATH
+    elm-package install
+    npm start
 
 And get started!
